@@ -15,7 +15,7 @@ class MuxDemuxSimple implements Runnable, java.lang.Runnable{
 	
 	  private static final Charset CONVERTER = StandardCharsets.UTF_8;
 
-	
+	//choose using boradcast or multicast
 	//The network socket, from which we are reading and to which we are writing. 
     //private DatagramSocket myS = null;
 		MulticastSocket myS = null;
